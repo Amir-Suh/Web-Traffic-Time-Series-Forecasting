@@ -1,0 +1,34 @@
+# Credentials - never commit these
+kaggle.json
+access_token*
+.env
+
+# Competition data (583 MB, downloaded by the notebook via kagglehub)
+*.csv
+*.csv.zip
+*.zip
+
+# Submissions (8.99M rows each, regenerate from the notebook)
+submissions/*.csv
+submission.csv
+
+# Model weights and cached arrays
+*.pt
+*.pth
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
